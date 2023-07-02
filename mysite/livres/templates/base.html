@@ -1,0 +1,11 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<main>
+    {% block content %}
+    <!-- Le contenu spécifique de chaque page ira ici -->
+    {% endblock %}
+</main>
+</html>
